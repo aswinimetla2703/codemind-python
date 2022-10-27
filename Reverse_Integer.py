@@ -1,0 +1,12 @@
+v=int(input())
+t=v
+v=abs(v)
+s=0
+while(v):
+    r=v%10
+    s=s*10+r
+    v=v//10
+if(t>0):
+    print(s)
+else:
+    print(-s)
