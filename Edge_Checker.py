@@ -1,5 +1,5 @@
-a,b=map(int,input().split())
-if a==b+1 or a==b-1 or a==b-9 or a==b+9:
-    print("Yes")
+v,k=map(int,input().split())
+if abs(v-k)==1 or v+k==11:
+    print('Yes')
 else:
-    print("No")
+    print('No')
